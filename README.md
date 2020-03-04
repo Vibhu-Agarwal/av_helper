@@ -2,3 +2,21 @@
 ![Publish Python Package](https://github.com/Vibhu-Agarwal/av_helper/workflows/Publish%20Python%20Package/badge.svg)
 
 An Audio-Video Helper Utility Package in Python
+
+## Installation
+```
+$ pip3 install av-helper
+```
+[Visit](https://pypi.org/project/av-helper/) the PyPI page of the package.
+
+## Usage
+```python
+>>> from av_helper import convert_video_to_audio
+>>> audio_file_name = convert_video_to_audio('audio_file_in_video_format.mp4')
+
+>>> from av_helper import merge_audio_video as merge_av
+>>> output_video = merge_av(audio_file_name, 'video_file_name.mp4')
+
+>>> from av_helper import save_audio_video_file as save_av
+>>> save_av(output_video)
+```
