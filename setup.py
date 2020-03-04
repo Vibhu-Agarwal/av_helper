@@ -17,10 +17,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Vibhu-Agarwal/av_helper",
     packages=setuptools.find_packages(),
-    license='MIT',
+    license='GPLv3+',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Operating System :: OS Independent",
     ],
     keywords='audio video av moviepy',
