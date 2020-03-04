@@ -1,0 +1,27 @@
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+with open('requirements.txt') as f:
+    requirements = f.readlines()
+
+setuptools.setup(
+    name="av_helper",
+    version="1.0.0",
+    author="Vibhu Agarwal",
+    author_email="vibhu4agarwal@gmail.com",
+    description="An Audio-Video Helper Utility Package in Python",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Vibhu-Agarwal/av_helper",
+    packages=setuptools.find_packages(),
+    license='MIT',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+    ],
+    keywords='audio video av moviepy',
+    install_requires=requirements
+)
