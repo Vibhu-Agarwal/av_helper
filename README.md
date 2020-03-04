@@ -1,2 +1,2 @@
-# audio_video_helper
+# av_helper
 An Audio-Video Helper Utility Package in Python
