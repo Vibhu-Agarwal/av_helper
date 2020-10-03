@@ -1,6 +1,6 @@
 # av_helper
 ![Publish Python Package](https://github.com/Vibhu-Agarwal/av_helper/workflows/Publish%20Python%20Package/badge.svg)
-
+[![DeepSource](https://deepsource.io/gh/Vibhu-Agarwal/av_helper.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/Vibhu-Agarwal/av_helper/?ref=repository-badge)  
 An Audio-Video Helper Utility Package in Python
 
 ## Installation
